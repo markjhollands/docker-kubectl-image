@@ -10,4 +10,3 @@ FROM alpine:3.9
 
 COPY --from=builder /tmp/kubectl /usr/local/bin
 RUN mkdir -p /root/.kube
-WORKDIR /app
